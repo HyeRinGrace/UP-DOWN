@@ -1,0 +1,105 @@
+html { background: url(../images/background2.png) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 60px;
+    color: rgb(245, 242, 56);
+    font-style:inherit;
+    border: 10px solid;
+    border-radius: 10px;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    border:none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.input_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.none{
+    display:none;
+}
+
+
+/* 버튼들 */
+.answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    margin: 40px;
+    background-color: rgb(245, 242, 56) ;
+    border:none;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    margin: 40px;
+    background-color: rgb(245, 242, 56) ;
+    border:none;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*  */
+.chance{
+    color: rgb(245, 242, 56);
+}
+
+span{
+    color: rgb(245, 242, 56);
+    font-size: 50px;
+}
+
+.gitFailShow{
+    display: none;
+    background-image: url("../images/fail.gif");
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+}
+
+.gitGoodShow{
+    display: none;
+    background-image: url("../images/good.gif");
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+}
+
