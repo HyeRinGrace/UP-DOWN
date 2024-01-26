@@ -18,7 +18,8 @@ input{
     height: 40px;
     border:none;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 25px;
+    font-stretch: expanded;
 }
 
 .input_container{
@@ -32,17 +33,19 @@ input{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: white;
+    font-size:20px;
 }
 
 .buttons{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 200px;
+    padding-top: auto;
 }
 
 .none{
-    display:none;
+    display:disabled;
 }
 
 
@@ -77,7 +80,7 @@ input{
 }
 /*  */
 .chance{
-    color: rgb(245, 242, 56);
+    color: white;
 }
 
 span{
@@ -85,21 +88,25 @@ span{
     font-size: 50px;
 }
 
+.git{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .gitFailShow{
     display: none;
     background-image: url("../images/fail.gif");
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 40px;
+    width: 500px;
+    height: 300px;
+    border-radius: 13px;
 }
 
 .gitGoodShow{
     display: none;
     background-image: url("../images/good.gif");
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 40px;
+    width: 500px;
+    height: 300px;
+    border-radius: 13px;
 }
 
